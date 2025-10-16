@@ -424,7 +424,7 @@ export function CertificateGenerator() {
                 <Label htmlFor="instructor">Nombre del Instructor</Label>
                 <Input
                   id="instructor"
-                  placeholder="Ej: Ing. María González"
+                  placeholder="Ej: Ing. Franyer Marin"
                   value={data.instructor || ""}
                   onChange={(e) => setData((prev) => ({ ...prev, instructor: e.target.value }))}
                 />
@@ -497,7 +497,7 @@ export function CertificateGenerator() {
                 <Label htmlFor="studentName">Nombre Completo</Label>
                 <Input
                   id="studentName"
-                  placeholder="Ej: Juan Carlos Pérez"
+                  placeholder="Ej: Yadira C. Chavez P."
                   value={newStudent.Nombre}
                   onChange={(e) => setNewStudent((prev) => ({ ...prev, Nombre: e.target.value }))}
                 />
